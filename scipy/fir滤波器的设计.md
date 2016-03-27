@@ -2,7 +2,7 @@
 **在数字信号处理领域，数字滤波器占有非常重要的地位，根据其计算方式可以分为FIR(有限脉冲响应)滤波器和IIR(无限脉冲响应)滤波器两种。FIR滤波器在某一时刻的输出只与这一时刻及之前的输入有关，而IIR滤波器某一时刻的输出不仅与这一时刻及之前的输入有关，还与这一时刻之前的输出有关。**
 ##低通滤波器的设计
 **根据理想低通滤波器的脉冲响应公式设计：**   
-![](/Users/Lovingmylove521/Desktop/python.sc/scipy/ideal.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/scipy/ideal.png)
 ###代码
 <pre>
 # -*- coding: utf-8 -*-
@@ -27,9 +27,9 @@ pl.legend()
 pl.show()
 </pre>
 ###结果
-![](/Users/Lovingmylove521/Desktop/python.sc/scipy/LPF-1.png)
-![](/Users/Lovingmylove521/Desktop/python.sc/scipy/LPF-2.png)
-![](/Users/Lovingmylove521/Desktop/python.sc/scipy/LPF-3.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/scipy/LPF-1.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/scipy/LPF-2.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/scipy/LPF-3.png)
 ###小结
 **显然，根据理想低通滤波器的脉冲响应公式设计的低通滤波器随着n的增大越来越接近理想，但是这样做给系统增加了延时；为了频率响应更好必须增加滤波器的点数，然而为了减少延时，必须减少点数，为了解决这个矛盾，scipy的signal库中提供了firwin函数，给系数乘上一个窗函数，让它快速收敛。**   
 ****
@@ -63,7 +63,7 @@ pl.legend()
 pl.show()
 </pre>
 ###结果
-![](/Users/Lovingmylove521/Desktop/python.sc/scipy/LPF-4.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/scipy/LPF-4.png)
 ###小结
 **在相同的点数的情况下，firwin函数能够达到更好的效果，但是这并不是最优化的，为了实现同样效果的频率响应，还存在更短的FIR滤波器。**
 ****
@@ -110,7 +110,7 @@ pl.ylabel('Gain(dB)')
 pl.show()
 </pre>
 ###结果
-![](/Users/Lovingmylove521/Desktop/python.sc/scipy/LPF-5.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/scipy/LPF-5.png)
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
->                                           Stay hungry, Stay foolish. ---Steve Jobs
+>                                             Stay hungry, Stay foolish. ---Steve Jobs
