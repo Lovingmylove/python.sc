@@ -59,4 +59,4 @@ pl.show()
 **U-Spline插值虽然可以预测自变量范围之外的数据，但是其预测精度随着偏离范围的增大而增大。**
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
->                       Stay hungry, Stay foolish. ---Steve Jobs
+>                                       Stay hungry, Stay foolish. ---Steve Jobs
