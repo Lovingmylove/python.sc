@@ -41,4 +41,4 @@ numpy.sin loop: 1.082252
 **numpy.sin的计算速度只有math.sin的1/3，这是因为numpy.sin为了同时支持数组和单个数值的计算，其C语言的内部实现要比math.sin复杂的多，如果我们同样在python级别进行循环的话，就会看出其中的差别。**
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
->                   Stay hungry, Stay foolish. ---Steve Jobs
+>                                     Stay hungry, Stay foolish. ---Steve Jobs
