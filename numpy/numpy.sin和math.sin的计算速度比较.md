@@ -1,5 +1,5 @@
 #numpy.sin和math.sin的计算速度比较
-![sin](/Users/Lovingmylove521/Desktop/numpy/sin.gif)
+![sin](https://github.com/Lovingmylove/python.sc/blob/master/numpy/sin.gif "github")
 ##代码
 <pre>
 import time				
