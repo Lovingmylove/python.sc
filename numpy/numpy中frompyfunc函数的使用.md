@@ -1,6 +1,6 @@
 #numpy中frompyfunc函数的使用
 **通过组合标准的ufunc函数的调用，可以实现各种算式的数组计算，不过有些时候这种算式不易编写，而针对每个元素的计算函数却很容易用Python实现，这时可以用frompyfunc函数将一个计算单个元素的函数转换成ufunc函数，从而很大程度上提高效率。**
-![triangle_wave](/Users/Lovingmylove521/Desktop/numpy/triangle_wave.png)
+![triangle_wave](https://github.com/Lovingmylove/python.sc/raw/master/numpy/triangle_wave.png)
 ##代码（Python）
 <pre>
 import numpy as np
@@ -75,4 +75,4 @@ triangle_func: 0.56715
 **通过triangle_func函数包装三角波的三个参数，在其内部定义一个计算三角波的函数trifunc，trifunc函数调用时会采用triangle_func的参数计算，最后triangle_func返回用frompyfunc转换结果。**
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
->                        Stay hungry, Stay foolish. ---Steve Jobs
+>                                     Stay hungry, Stay foolish. ---Steve Jobs
