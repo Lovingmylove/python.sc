@@ -77,7 +77,7 @@ plt.title('Ridge coefficients as a function of the regularization')
 plt.axis('tight')
 plt.show()
 </pre>
-![alpha](/Users/Lovingmylove521/Desktop/scikit-learn/alpha_Ridge_Regression.png)
+![alpha](https://github.com/Lovingmylove/python.sc/raw/master/scikit-learn/alpha_Ridge_Regression.png)
 ##Lasso
 **Lasso模型是另外一种线性回归的模型，主要解决稀疏数据的拟合问题：**
 ###代码
@@ -163,4 +163,4 @@ ElasticNet(alpha=0.1, copy_X=True, fit_intercept=True, l1_ratio=0.7,
       random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
 r^2 on test data : 0.240176
 </pre>
-![](/Users/Lovingmylove521/Desktop/scikit-learn/Lasso_and_Elastic_Net_for_Sparse_Signals.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/scikit-learn/Lasso_and_Elastic_Net_for_Sparse_Signals.png)
