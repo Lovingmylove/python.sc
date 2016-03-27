@@ -25,7 +25,7 @@ ax.plot(track2[:,0],track2[:,1],track2[:,2],'b')
 plt.show()
 </pre>
 ##绘图
-![Lorenz](/Users/Lovingmylove521/Desktop/scipy/Lorenz.png)
+![Lorenz](https://github.com/Lovingmylove/python.sc/raw/master/scipy/Lorenz.png)
 ##插曲
 **最初在使用Canopy时，命令行“from mpl_toolkits.mplot3D import Axes3D”出现没有功能模块的错误无法调用，于是就用如下的命令查看了一下是否存在该库：**
 <pre>
