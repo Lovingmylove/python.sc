@@ -65,12 +65,12 @@ pl.show()
 ###结果
 ![](https://github.com/Lovingmylove/python.sc/raw/master/scipy/LPF-4.png)
 ###小结
-**在相同的点数的情况下，firwin函数能够达到更好的效果，但是这并不是最优化的，为了实现同样效果的频率响应，还存在更短的FIR滤波器。**
+**在相同的点数的情况下，firwin函数能够达到更好的效果，但是这并不是最优化的，为了实现同样效果的频率响应，还存在长度更短的FIR滤波器。**
 ****
 **用remez函数设计：**
 <pre>
 # remez函数的调用格式
-remez(numtaps, bands, desired, weight=None, Hz=1, type='bandpass', maxiter=25, grid_density=16)
+>>>remez(numtaps, bands, desired, weight=None, Hz=1, type='bandpass', maxiter=25, grid_density=16)
 # numtaps: 所设计的FIR滤波器的长度
 # bands：一个递增序列，它包括频率响应中的所有频带的边界，其值在0到Hz/2之间
 # desired: 长度为bands的一半的增益序列，它给出频率响应在bands中的每个频带的增益值，由它来控制滤波器的类型
