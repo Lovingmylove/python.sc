@@ -42,4 +42,4 @@ pl.show()
 ![Gaussian_Function_Fitting](https://github.com/Lovingmylove/python.sc/raw/master/scipy/Gaussian_Function_Fitting.png)
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
->                       Stay hungry, Stay foolish. ---Steve Jobs
+>                                    Stay hungry, Stay foolish. ---Steve Jobs
