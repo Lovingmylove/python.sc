@@ -26,8 +26,8 @@ pl.legend()
 pl.show()
 </pre>
 ###插值结果
-![linear interpolation](/Users/Lovingmylove521/Desktop/scipy/linear_interpolation.png)
-![B-Spline](/Users/Lovingmylove521/Desktop/scipy/B-Spline_interpolation.png)
+![linear interpolation](https://github.com/Lovingmylove/python.sc/raw/master/scipy/linear_interpolation.png)
+![B-Spline](https://github.com/Lovingmylove/python.sc/raw/master/scipy/B-Spline_interpolation.png)
 ###小结
 **B-Spline插值显然比线性插值的效果好，但是两者都只能预测自变量范围之内的点，而不能预测超出自变量范围的点。**
 ##U-Spline插值
@@ -54,7 +54,7 @@ pl.legend()
 pl.show()
 </pre>
 ###插值结果
-![U-Spline](/Users/Lovingmylove521/Desktop/scipy/U-Spline.png)
+![U-Spline](https://github.com/Lovingmylove/python.sc/raw/master/scipy/U-Spline.png)
 ###小结
 **U-Spline插值虽然可以预测自变量范围之外的数据，但是其预测精度随着偏离范围的增大而增大。**
 ##测试环境
