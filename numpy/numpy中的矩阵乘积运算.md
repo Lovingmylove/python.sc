@@ -1,5 +1,5 @@
 #numpy中的矩阵乘积运算
-![array](/Users/Lovingmylove521/Desktop/numpy/array.jpeg)
+![array](https://github.com/Lovingmylove/python.sc/raw/master/numpy/array.jpeg)
 ##简介
 **numpy提供了dot,inner,outer等多种矩阵乘积的函数，这些函数计算乘积方式不同，尤其是多维数组，更容易搞混。**
 ##dot
@@ -66,4 +66,4 @@ error =np.sum(np.abs(np.dot(a,x)-b))
 </pre>
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
->                      Stay hungry, Stay foolish. ---Steve Jobs
+>                                     Stay hungry, Stay foolish. ---Steve Jobs
