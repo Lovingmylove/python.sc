@@ -26,16 +26,16 @@ pl.subplots_adjust(hspace=0.4)
 pl.show()
 </pre>
 ##FFT频谱
-![fft-1](/Users/Lovingmylove521/Desktop/scipy/fft-1.png)
+![fft-1](https://github.com/Lovingmylove/python.sc/raw/master/scipy/fft-1.png)
 ###为什么是“156.25Hz”和“234.375Hz”这两个奇怪的频率？
 **因为在我们设置的条件下，这两个频率的正弦波在512个取样点中正好有整数个周期，满足这个条件波形的FFT结果能够精确地反应其频谱。**
-![fft-2](/Users/Lovingmylove521/Desktop/scipy/fft-2.png)
+![fft-2](https://github.com/Lovingmylove/python.sc/raw/master/scipy/fft-2.png)
 **把频率换成200Hz和300Hz，得到的不再是两个完美的峰值，而是两个峰值频率周围的频率都有能量，这种现象被称为频谱泄露。原因在于fft_size个取样点无法放下整数个200Hz和300Hz的波形。**
 <pre>
 sampling_rate = 5120
 </pre>
 **把采样频率改为5.12kHz,这样5120/512=10Hz,200Hz和300Hz都是10的整数倍，就能画出完美的频谱图。**
-![fft-3](/Users/Lovingmylove521/Desktop/scipy/fft-3.png)
+![fft-3](https://github.com/Lovingmylove/python.sc/raw/master/scipy/fft-3.png)
 ##频谱泄露解释
 <pre>
 t = np.arange(0,1.0,1.0/4000)
@@ -45,7 +45,7 @@ pl.xlabel("sampling")
 pl.title(u"200Hz sine wave")
 pl.show()
 </pre>
-![](/Users/Lovingmylove521/Desktop/scipy/fft-4.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/scipy/fft-4.png)
 **波形前后不连续，出现跳变，而跳变处有着非常广泛的频率，因此FFT结果中出现频谱泄露。**
 ##利用hann窗函数减少FFT所取截断数据的跳变
 <pre>
@@ -82,9 +82,9 @@ a.set_ylim(-40,0)
 pl.show()
 </pre>
 ###结果
-![hann](/Users/Lovingmylove521/Desktop/scipy/hann.png)
+![hann](https://github.com/Lovingmylove/python.sc/raw/master/scipy/hann.png)
 **加上hann窗口后，FFT截断的数据中跳变就会减少，进而使得能量更加集中，加上hann窗口后的FFT采样图像如下所示：**
-![](/Users/Lovingmylove521/Desktop/scipy/hann-1.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/scipy/hann-1.png)
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
->                       Stay hungry, Stay foolish. ---Steve Jobs
+>                                        Stay hungry, Stay foolish. ---Steve Jobs
