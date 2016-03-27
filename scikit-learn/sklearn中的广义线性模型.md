@@ -163,4 +163,7 @@ ElasticNet(alpha=0.1, copy_X=True, fit_intercept=True, l1_ratio=0.7,
       random_state=None, selection='cyclic', tol=0.0001, warm_start=False)
 r^2 on test data : 0.240176
 </pre>
-![](https://github.com/Lovingmylove/python.sc/raw/master/scikit-learn/Lasso_and_Elastic_Net_for_Sparse_Signals.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/scikit-learn/Lasso_and_Elastic_Net_for_Sparse_Signals.png)      
+##测试环境
+**Canopy** version:1.6.2 for **Mac** OSX 10.11.3
+>                                         Stay hungry, Stay foolish. ---Steve Jobs
