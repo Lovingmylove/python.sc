@@ -39,4 +39,4 @@ importlib.import_module('mpl_toolkits').__path__
 **按照这个路径就能找到相应的库，修改初始化文件即可。**
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
->                       Stay hungry, Stay foolish. ---Steve Jobs
+>                                        Stay hungry, Stay foolish. ---Steve Jobs
