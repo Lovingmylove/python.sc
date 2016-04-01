@@ -52,7 +52,7 @@ def twoSum(nums, target):
 ##Tips
 <pre>
 argsort: return the indices of a sorted list
-for every i, traversal j until the condition "nums[numsIndices[i]] + nums[numsIndices[j]" is ture, then break.
+for every i, traversal j until the condition "nums[numsIndices[i]] + nums[numsIndices[j] == target" is ture, then break.
 </pre>
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
