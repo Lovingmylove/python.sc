@@ -26,7 +26,7 @@ class Solution:
 </pre>
 ##Is this way better enough?
 **The answer is no. It wasted too much time.**   
-![](/Users/Lovingmylove521/Desktop/python.sc/LeetCode/Median_of_Two_Sorted_Arrays_1.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/python.sc/LeetCode/Median_of_Two_Sorted_Arrays_1.png)
 ##Is their a rude but simple solution?
 <pre>
 def findMedianSortedArrays(self, A, B):
@@ -50,7 +50,7 @@ def findMedianSortedArrays(self, A, B):
          else:
             return (num[length//2-1] + num[length//2])/2.0
 </pre>
-![](/Users/Lovingmylove521/Desktop/python.sc/LeetCode/Median_of_Two_Sorted_Arrays_2.png)
+![](https://github.com/Lovingmylove/python.sc/raw/master/python.sc/LeetCode/Median_of_Two_Sorted_Arrays_2.png)
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
 >                                              Stay hungry, Stay foolish. ---Steve Jobs
