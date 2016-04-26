@@ -1,6 +1,6 @@
 #任意波形的RMSE(root-mean-square error)计算
 **均方根误差，它是观测值与真值偏差的平方和观测次数n比值的平方根，在实际测量中，观测次数n总是有限的，真值只能用最可信赖（最佳）值来代替.方根误差对一组测量中的特大或特小误差反映非常敏感，所以，均方根误差能够很好地反映出测量的精密度。**   
-![RMSE](/Users/Lovingmylove521/Desktop/python.sc/project/RMSE/RMSE.png)   
+![RMSE](https://github.com/Lovingmylove/python.sc/raw/master/project/RMSE/RMSE.png)   
 **观测值一般为我们实验中获取的数据，真值通常是通过对观测数据进行对应函数拟合得到的，那么什么样的拟合方式才是最适合的呢？**
 ##最小二乘拟合函数
 scipy库中提供了最小二乘拟合的算法：leastsq，其调用方式为：
@@ -98,7 +98,7 @@ print RMSE,plsq[0]
 均方根误差：RMSE = ~6.4e-4   
 时延：a = ~2.16e-10   
 周期：T = ~2.51e-10
-![RMSE](/Users/Lovingmylove521/Desktop/python.sc/project/RMSE/triangular.png)
+![RMSE](https://github.com/Lovingmylove/python.sc/raw/master/project/RMSE/triangular.png)
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
 >                                        Stay hungry, Stay foolish. ---Steve Jobs
