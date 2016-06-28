@@ -36,7 +36,7 @@ pl.text(2.5,0.487,' <--- maximum=%0.2f' %(m))#在图中插入文本信息
 pl.show()
 </pre> 
 ##结果
-![Bessel-cardinal function](/Users/Lovingmylove521/Desktop/python.sc/project/OEO/Besselfunction.png) 
+![Bessel-cardinal function](https://github.com/Lovingmylove/python.sc/raw/master/project/OEO/Besselfunction.png) 
 **从Bessel-cardinal function 和 Bessel function 的对比图中可以看出，在零点附近，Bessel-cardinal function 有 maximum=0.50**
 ##zeros of Bessel function
 <pre>
