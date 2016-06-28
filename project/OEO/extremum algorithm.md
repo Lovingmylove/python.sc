@@ -1,7 +1,7 @@
 #Extremum algorithm
 **< 1. > 极值是一个函数的极大值或极小值。如果一个函数在一点的一个邻域内处处都有确定的值，而以该点处的值为最大（小），这函数在该点处的值就是一个极大（小）值。如果它比邻域内其他各点处的函数值都大（小），它就是一个严格极大（小）。该点就相应地称为一个极值点或严格极值点。**   
 **< 2. > 函数的一种稳定值，即一个极大值或一个极小值，极值点只能在函数不可导的点或导数为零的点上取得。**
-![extremum](/Users/Lovingmylove521/Desktop/python.sc/project/OEO/extremum.png)    
+![extremum](https://github.com/Lovingmylove/python.sc/raw/master/project/OEO/extremum.png)    
 ***#图中B,C,D,E是极值点***
 ##程序
 <pre>
