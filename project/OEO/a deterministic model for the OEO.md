@@ -93,7 +93,7 @@ pl.ylim(-0.2,1.6)
 pl.show()
 </pre>
 ###输出结果
-![Hopf](https://github.com/Lovingmylove/python.sc/raw/master/project/OEO/Hopf.png)
+![Hopf](https://github.com/Lovingmylove/python.sc/raw/master/project/OEO/hopf.png)
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
 >                                        Stay hungry, Stay foolish. ---Steve Jobs
