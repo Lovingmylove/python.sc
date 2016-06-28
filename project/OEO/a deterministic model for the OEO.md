@@ -1,6 +1,6 @@
 # A deterministic model for the OEO
 **We have drived a first-order nonlinear delay-differential equation with a complex variable to investigate the dynamic of the OEO.**   
-![FONDDE](/Users/Lovingmylove521/Desktop/python.sc/project/OEO/FONDDE.gif)   
+![FONDDE](https://github.com/Lovingmylove/python.sc/raw/master/project/OEO/FONDDE.gif)   
 **注释：**   
 <pre>
 u: the half-bandwidth of electrical bandpass filter
@@ -45,8 +45,8 @@ pl.plot(a,amplitude[t])
 pl.show()
 </pre>
 ##输出结果
-![y=-2.2](/Users/Lovingmylove521/Desktop/python.sc/project/OEO/y=-2.2.png)
-![y=-2.4](/Users/Lovingmylove521/Desktop/python.sc/project/OEO/y=-2.4.png)
+![y=-2.2](https://github.com/Lovingmylove/python.sc/raw/master/project/OEO/y=-2.2.png)
+![y=-2.4](https://github.com/Lovingmylove/python.sc/raw/master/project/OEO/y=-2.4.png)
 ##总结
 **Numerical simulation of the deterministic model of OEO for various of the effective feedback gain. When |y|=2.2 < ycr, the system converges to stable fixed point after some oscillatory transients. When |y| = 2.4 > ycr, the system is beyond the supercritical Hopf bifurcation value, and its amplitude is mudulated with a period equal to 2T.**
 ##Stationary solutions and their stability
@@ -93,7 +93,7 @@ pl.ylim(-0.2,1.6)
 pl.show()
 </pre>
 ###输出结果
-![Hopf](/Users/Lovingmylove521/Desktop/python.sc/project/OEO/Hopf.png)
+![Hopf](https://github.com/Lovingmylove/python.sc/raw/master/project/OEO/Hopf.png)
 ##测试环境
 **Canopy** version:1.6.2 for **Mac** OSX 10.11.3
 >                                        Stay hungry, Stay foolish. ---Steve Jobs
